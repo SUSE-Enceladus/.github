@@ -1,0 +1,5 @@
+{
+    "name": "OBS Deployment Workflow",
+    "description": "Deploys a new version of the package to OBS when a version tag is created.",
+    "iconName": "example-icon"
+}
