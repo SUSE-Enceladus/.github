@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: main
-      url: https://pypi.org/p/suse-cloud-image-name-parser
+      url: https://pypi.org/p/${{ github.event.repository.name }}
     permissions:
       id-token: write
 
